@@ -1,0 +1,10 @@
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\bin\Debug\calcvelocidad.exe.config
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\bin\Debug\calcvelocidad.exe
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\bin\Debug\calcvelocidad.pdb
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\obj\Debug\calcvelocidad.csprojResolveAssemblyReference.cache
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\obj\Debug\calcvelocidad.Form1.resources
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\obj\Debug\calcvelocidad.Properties.Resources.resources
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\obj\Debug\calcvelocidad.csproj.GenerateResource.Cache
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\obj\Debug\calcvelocidad.exe
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\obj\Debug\calcvelocidad.pdb
+C:\Users\lupita\Desktop\calcvelocidad\calcvelocidad\obj\Debug\calcvelocidad.grafica.resources

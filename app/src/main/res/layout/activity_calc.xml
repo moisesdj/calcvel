@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.cetis138gmail.moises.calcvelocidad.calc">
+
+    <TextView
+        android:text="AGREGAR VALORES"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/nada"
+        android:scrollbarSize="40dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:text="ACELERACIÓN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nada"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:id="@+id/textView2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <EditText
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/campot"
+        android:hint="tiempo"
+        android:singleLine="true"/>
+
+    <EditText
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:hint="velocidad"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:id="@+id/campov"
+        android:layout_alignBaseline="@+id/campot"
+        android:layout_alignBottom="@+id/campot"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true" />
+
+    <EditText
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:hint="posición"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:id="@+id/campop"
+        android:layout_alignBaseline="@+id/campov"
+        android:layout_alignBottom="@+id/campov"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:singleLine="true" />
+
+    <Button
+        android:text="VER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ver"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:text="EXIT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/exit"
+
+        />
+
+    <Button
+        android:text="ACEPTAR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enter"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:hint="tiempox"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:id="@+id/campot2"
+        android:singleLine="true"
+        android:layout_above="@+id/enter"
+        android:layout_alignRight="@+id/exit"
+        android:layout_alignEnd="@+id/exit" />
+
+    <EditText
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:hint="velocidadx"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:id="@+id/campov2"
+        android:singleLine="true"
+        android:layout_above="@+id/enter"
+        android:layout_alignLeft="@+id/campov"
+        android:layout_alignStart="@+id/campov" />
+
+    <EditText
+        android:maxLength="6"
+        android:inputType="numberDecimal"
+        android:hint="posiciónx"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:id="@+id/campop2"
+        android:singleLine="true"
+        android:layout_alignBottom="@+id/campov2"
+        android:layout_alignLeft="@+id/ver"
+        android:layout_alignStart="@+id/ver"
+        android:layout_alignTop="@+id/campov2" />
+
+    <TextView
+        android:text="posiciony"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:id="@+id/rcampop2"
+        android:layout_below="@+id/enter"
+        android:layout_alignLeft="@+id/campop2"
+        android:layout_alignStart="@+id/campop2" />
+
+    <TextView
+        android:text="velocidady"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/rcampop2"
+        android:id="@+id/rcampov2"
+        android:layout_alignLeft="@+id/campov2"
+        android:layout_alignStart="@+id/campov2" />
+
+    <TextView
+        android:text="tiempoy"
+        android:layout_width="80dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/rcampov2"
+        android:layout_alignLeft="@+id/campot2"
+        android:layout_alignStart="@+id/campot2"
+        android:id="@+id/rcampot2" />
+</RelativeLayout>
