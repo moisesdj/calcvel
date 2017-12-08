@@ -11,152 +11,152 @@
     tools:context="com.cetis138gmail.moises.calcvelocidad.calc">
 
     <TextView
-        android:text="AGREGAR VALORES"
+        android:id="@+id/nada"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/nada"
         android:scrollbarSize="40dp"
+        android:text="AGREGAR VALORES"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
     <TextView
-        android:text="ACELERACIÓN"
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/nada"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="33dp"
-        android:id="@+id/textView2"
+        android:text="ACELERACIÓN"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <EditText
-        android:maxLength="6"
-        android:inputType="numberDecimal"
+        android:id="@+id/campot"
         android:layout_width="85dp"
         android:layout_height="45dp"
-        android:layout_below="@+id/textView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
         android:layout_marginTop="15dp"
-        android:id="@+id/campot"
         android:hint="tiempo"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
         android:singleLine="true"/>
 
     <EditText
-        android:maxLength="6"
-        android:inputType="numberDecimal"
-        android:hint="velocidad"
+        android:id="@+id/campov"
         android:layout_width="85dp"
         android:layout_height="45dp"
-        android:id="@+id/campov"
         android:layout_alignBaseline="@+id/campot"
         android:layout_alignBottom="@+id/campot"
         android:layout_centerHorizontal="true"
+        android:hint="velocidad"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
         android:singleLine="true" />
 
     <EditText
-        android:maxLength="6"
-        android:inputType="numberDecimal"
-        android:hint="posición"
+        android:id="@+id/campop"
         android:layout_width="80dp"
         android:layout_height="45dp"
-        android:id="@+id/campop"
         android:layout_alignBaseline="@+id/campov"
         android:layout_alignBottom="@+id/campov"
-        android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:hint="posición"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
         android:singleLine="true" />
 
     <Button
-        android:text="VER"
+        android:id="@+id/ver"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/ver"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:text="VER"/>
 
     <Button
-        android:text="EXIT"
+        android:id="@+id/exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:id="@+id/exit"
+        android:text="CLEAR"
 
         />
 
     <Button
-        android:text="ACEPTAR"
+        android:id="@+id/enter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/enter"
+        android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:text="ACEPTAR"/>
 
     <EditText
-        android:maxLength="6"
-        android:inputType="numberDecimal"
-        android:hint="tiempox"
+        android:id="@+id/campot2"
         android:layout_width="80dp"
         android:layout_height="45dp"
-        android:id="@+id/campot2"
-        android:singleLine="true"
         android:layout_above="@+id/enter"
+        android:layout_alignEnd="@+id/exit"
         android:layout_alignRight="@+id/exit"
-        android:layout_alignEnd="@+id/exit" />
+        android:hint="m/s\u00b2"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:singleLine="true"/>
 
     <EditText
-        android:maxLength="6"
-        android:inputType="numberDecimal"
-        android:hint="velocidadx"
+        android:id="@+id/campov2"
         android:layout_width="95dp"
         android:layout_height="45dp"
-        android:id="@+id/campov2"
-        android:singleLine="true"
         android:layout_above="@+id/enter"
         android:layout_alignLeft="@+id/campov"
-        android:layout_alignStart="@+id/campov" />
+        android:layout_alignStart="@+id/campov"
+        android:hint="velocidadx"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:singleLine="true"/>
 
     <EditText
-        android:maxLength="6"
-        android:inputType="numberDecimal"
-        android:hint="posiciónx"
+        android:id="@+id/campop2"
         android:layout_width="85dp"
         android:layout_height="45dp"
-        android:id="@+id/campop2"
-        android:singleLine="true"
         android:layout_alignBottom="@+id/campov2"
         android:layout_alignLeft="@+id/ver"
         android:layout_alignStart="@+id/ver"
-        android:layout_alignTop="@+id/campov2" />
+        android:layout_alignTop="@+id/campov2"
+        android:hint="posiciónx"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:singleLine="true"/>
 
     <TextView
-        android:text="posiciony"
+        android:id="@+id/rcampop2"
         android:layout_width="85dp"
         android:layout_height="45dp"
-        android:id="@+id/rcampop2"
-        android:layout_below="@+id/enter"
         android:layout_alignLeft="@+id/campop2"
-        android:layout_alignStart="@+id/campop2" />
+        android:layout_alignStart="@+id/campop2"
+        android:layout_below="@+id/enter"
+        android:text="posiciony"/>
 
     <TextView
-        android:text="velocidady"
+        android:id="@+id/rcampov2"
         android:layout_width="95dp"
         android:layout_height="45dp"
         android:layout_alignBottom="@+id/rcampop2"
-        android:id="@+id/rcampov2"
         android:layout_alignLeft="@+id/campov2"
-        android:layout_alignStart="@+id/campov2" />
+        android:layout_alignStart="@+id/campov2"
+        android:text="velocidady"/>
 
     <TextView
-        android:text="tiempoy"
+        android:id="@+id/rcampot2"
         android:layout_width="80dp"
         android:layout_height="45dp"
         android:layout_alignBottom="@+id/rcampov2"
         android:layout_alignLeft="@+id/campot2"
         android:layout_alignStart="@+id/campot2"
-        android:id="@+id/rcampot2" />
+        android:text="tiempoy"/>
 </RelativeLayout>
